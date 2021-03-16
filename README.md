@@ -37,6 +37,20 @@ IntentLauncher.startAppByPackageName('wtf.swell')
 ...
 ```
 
+## Configuration
+AndroidManifest.xml
+```xml
+<manifest ...>
+    ...
+    <queries>
+        <package android:name="com.package" />
+    </queries>
+    ...
+     <application ...>
+    ...
+</manifest>
+```
+
 ## Properties
 * `action` String
 * `data` String
